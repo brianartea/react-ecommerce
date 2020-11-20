@@ -10,6 +10,7 @@
   top: 90px;
   right: 40px;
   z-index: 5;
+
   ::-webkit-scrollbar {
     width: 4px;
     background-color: transparent;
@@ -29,7 +30,7 @@
     height: 240px;
     display: flex;
     flex-direction: column;
-    overflow: auto;
+    overflow: scroll;
   }
 
   button {
